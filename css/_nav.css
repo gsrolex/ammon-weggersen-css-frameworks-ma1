@@ -1,0 +1,21 @@
+.navbar-brand {
+    font-size: 32px;
+    color: var(--nav-colour) !important;
+    padding-left: 2rem;
+}
+
+.navbar {
+    background-color: var(--background-colour) !important;
+    color: var(--nav-colour) !important;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--nav-colour) !important;
+    font-size: 15px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+    color: var( --primary-pink) !important;
+}
+
